@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)https://webchat.missiveapp.com/7c7c8ef1-7a72-4fe1-80a7-00dfe89d4c5c/webchat -->
+<html style="--background-color: #fff; --badge-background-color: #f23131; --badge-border-radius: 100%; --badge-box-shadow: 0 1px 2px rgba(0,0,0, .2); --badge-color: #fff; --badge-size: 24px; --border-color: rgba(0,0,0, .05); --border: solid 1px rgba(0,0,0, .06); --box-shadow: 0 5px 30px rgba(0,0,0, .1); --bubble-dark-color: var(--main-color); --bubble-light-color: #f5f5f5; --close-button-color: #fff; --closed-border-radius: 30px; --font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;; --font-size: 15px; --header-opened-background-color: var(--main-color); --header-subtitle-text-color: rgba(255,255,255, .65); --header-title-text-color: #fff; --height: 600px; --light-text-color: #7b7c7f; --main-color: #000000; --margin: 20px; --max-height: calc(100% - 40px); --max-width: calc(100% - 40px); --opened-border-radius: 10px; --status-connecting-color: #fdd157; --status-offline-color: #f23131; --status-online-color: #00b351; --text-color: #34363a; --transition-duration: 225ms; --transition-easing: cubic-bezier(.4, .0, .2, 1); --width: 350px;">
+<!-- Mirrored from file:///C:/Users/lucas/Desktop/Baile de Gala - CMMG69_files/webchat.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Jul 2023 08:09:12 GMT -->
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!--<base target="_parent">--><base  target="_parent">
+  <link rel="stylesheet" href="../../../../../..//webchat.css">
+  <script nonce="">
+  var _rollbarConfig = {
+    accessToken: "269543ee3ddd495c9f5a39a1e88d873a",
+    captureUncaught: true,
+    captureUnhandledRejections: true,
+    enabled: true,
+    itemsPerMinute: 5,
+    maxItems: 25,
+    rollbarJsUrl: 'https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/2.14.4/rollbar.min.js',
+    payload: {
+      environment: "production",
+      client: {
+        javascript: {
+          code_version: "v83",
+          source_map_enabled: true,
+          guess_uncaught_frames: true,
+        }
+      },
+    },
+    checkIgnore: function(isUncaught, args, payload) {
+      var trace = payload.body ? payload.body.trace : null
+      var exception = trace ? trace.exception : null
+      var frames = trace ? trace.frames || [] : []
+
+      if (exception) {
+        // Ignore `eval()` error (caused by extensions)
+        if (exception.class == 'EvalError') {
+          return true
+        }
+
+        // Ignore `Script error.` (caused by extensions)
+        if (exception.message == 'Script error.') {
+          return true
+        }
+      }
+
+      for (var i = 0; i < frames.length; i++) {
+        var frame = frames[i]
+
+        // Ignore errors that we can’t trace
+        if (frame.method == '[anonymous]' && frame.filename == '(unknown)') {
+          return true
+        }
+
+        // Ignore errors tracing back to about:blank
+        if (frame.filename == 'about:blank') {
+          return true
+        }
+
+        // Ignore extension errors
+        if (/((chrome|safari|firefox)(-web)?-extension|user-script)/.test(frame.filename)) {
+          return true
+        }
+      }
+
+      return false;
+    }
+  };
+  // Rollbar Snippet
+  !function(r){var e={};function o(n){if(e[n])return e[n].exports;var t=e[n]={i:n,l:!1,exports:{}};return r[n].call(t.exports,t,t.exports,o),t.l=!0,t.exports}o.m=r,o.c=e,o.d=function(r,e,n){o.o(r,e)||Object.defineProperty(r,e,{enumerable:!0,get:n})},o.r=function(r){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(r,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(r,"__esModule",{value:!0})},o.t=function(r,e){if(1&e&&(r=o(r)),8&e)return r;if(4&e&&"object"==typeof r&&r&&r.__esModule)return r;var n=Object.create(null);if(o.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:r}),2&e&&"string"!=typeof r)for(var t in r)o.d(n,t,function(e){return r[e]}.bind(null,t));return n},o.n=function(r){var e=r&&r.__esModule?function(){return r.default}:function(){return r};return o.d(e,"a",e),e},o.o=function(r,e){return Object.prototype.hasOwnProperty.call(r,e)},o.p="",o(o.s=0)}([function(r,e,o){var n=o(1),t=o(4);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/2.14.4/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=n.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=n.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,e,o){var n=o(2);function t(r){return function(){try{return r.apply(this,arguments)}catch(r){try{console.error("[Rollbar]: Internal error",r)}catch(r){}}}}var a=0;function l(r,e){this.options=r,this._rollbarOldOnError=null;var o=a++;this.shimId=function(){return o},"undefined"!=typeof window&&window._rollbarShims&&(window._rollbarShims[o]={handler:e,messages:[]})}var i=o(3),s=function(r,e){return new l(r,e)},d=function(r){return new i(s,r)};function c(r){return t(function(){var e=Array.prototype.slice.call(arguments,0),o={shim:this,method:r,args:e,ts:new Date};window._rollbarShims[this.shimId()].messages.push(o)})}l.prototype.loadFull=function(r,e,o,n,a){var l=!1,i=e.createElement("script"),s=e.getElementsByTagName("script")[0],d=s.parentNode;i.crossOrigin="",i.src=n.rollbarJsUrl,o||(i.async=!0),i.onload=i.onreadystatechange=t(function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){i.onload=i.onreadystatechange=null;try{d.removeChild(i)}catch(r){}l=!0,function(){var e;if(void 0===r._rollbarDidLoad){e=new Error("rollbar.js did not load");for(var o,n,t,l,i=0;o=r._rollbarShims[i++];)for(o=o.messages||[];n=o.shift();)for(t=n.args||[],i=0;i<t.length;++i)if("function"==typeof(l=t[i])){l(e);break}}"function"==typeof a&&a(e)}()}}),d.insertBefore(i,s)},l.prototype.wrap=function(r,e,o){try{var n;if(n="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._rollbar_wrapped&&(r._rollbar_wrapped=function(){o&&"function"==typeof o&&o.apply(this,arguments);try{return r.apply(this,arguments)}catch(o){var e=o;throw e&&("string"==typeof e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e),e}},r._rollbar_wrapped._isWrap=!0,r.hasOwnProperty))for(var t in r)r.hasOwnProperty(t)&&(r._rollbar_wrapped[t]=r[t]);return r._rollbar_wrapped}catch(e){return r}};for(var p="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,captureEvent,captureDomContentLoaded,captureLoad".split(","),u=0;u<p.length;++u)l.prototype[p[u]]=c(p[u]);r.exports={setupShim:function(r,e){if(r){var o=e.globalAlias||"Rollbar";if("object"==typeof r[o])return r[o];r._rollbarShims={},r._rollbarWrappedError=null;var a=new d(e);return t(function(){e.captureUncaught&&(a._rollbarOldOnError=r.onerror,n.captureUncaughtExceptions(r,a,!0),e.wrapGlobalEventHandlers&&n.wrapGlobals(r,a,!0)),e.captureUnhandledRejections&&n.captureUnhandledRejections(r,a,!0);var t=e.autoInstrument;return!1!==e.enabled&&(void 0===t||!0===t||"object"==typeof t&&t.network)&&r.addEventListener&&(r.addEventListener("load",a.captureLoad.bind(a)),r.addEventListener("DOMContentLoaded",a.captureDomContentLoaded.bind(a))),r[o]=a,a})()}},Rollbar:d}},function(r,e){function o(r,e,o){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){for(var n=e.addEventListener;n._rollbarOldAdd&&n.belongsToShim;)n=n._rollbarOldAdd;var t=function(e,o,t){n.call(this,e,r.wrap(o),t)};t._rollbarOldAdd=n,t.belongsToShim=o,e.addEventListener=t;for(var a=e.removeEventListener;a._rollbarOldRemove&&a.belongsToShim;)a=a._rollbarOldRemove;var l=function(r,e,o){a.call(this,r,e&&e._rollbar_wrapped||e,o)};l._rollbarOldRemove=a,l.belongsToShim=o,e.removeEventListener=l}}r.exports={captureUncaughtExceptions:function(r,e,o){if(r){var n;if("function"==typeof e._rollbarOldOnError)n=e._rollbarOldOnError;else if(r.onerror){for(n=r.onerror;n._rollbarOldOnError;)n=n._rollbarOldOnError;e._rollbarOldOnError=n}e.handleAnonymousErrors();var t=function(){var o=Array.prototype.slice.call(arguments,0);!function(r,e,o,n){r._rollbarWrappedError&&(n[4]||(n[4]=r._rollbarWrappedError),n[5]||(n[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null);var t=e.handleUncaughtException.apply(e,n);o&&o.apply(r,n),"anonymous"===t&&(e.anonymousErrorsPending+=1)}(r,e,n,o)};o&&(t._rollbarOldOnError=n),r.onerror=t}},captureUnhandledRejections:function(r,e,o){if(r){"function"==typeof r._rollbarURH&&r._rollbarURH.belongsToShim&&r.removeEventListener("unhandledrejection",r._rollbarURH);var n=function(r){var o,n,t;try{o=r.reason}catch(r){o=void 0}try{n=r.promise}catch(r){n="[unhandledrejection] error getting `promise` from event"}try{t=r.detail,!o&&t&&(o=t.reason,n=t.promise)}catch(r){}o||(o="[unhandledrejection] error getting `reason` from event"),e&&e.handleUnhandledRejection&&e.handleUnhandledRejection(o,n)};n.belongsToShim=o,r._rollbarURH=n,r.addEventListener("unhandledrejection",n)}},wrapGlobals:function(r,e,n){if(r){var t,a,l="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(t=0;t<l.length;++t)r[a=l[t]]&&r[a].prototype&&o(e,r[a].prototype,n)}}}},function(r,e){function o(r,e){this.impl=r(e,this),this.options=e,function(r){for(var e=function(r){return function(){var e=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,e)}},o="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleAnonymousErrors,handleUnhandledRejection,_createItem,wrap,loadFull,shimId,captureEvent,captureDomContentLoaded,captureLoad".split(","),n=0;n<o.length;n++)r[o[n]]=e(o[n])}(o.prototype)}o.prototype._swapAndProcessMessages=function(r,e){var o,n,t;for(this.impl=r(this.options);o=e.shift();)n=o.method,t=o.args,this[n]&&"function"==typeof this[n]&&("captureDomContentLoaded"===n||"captureLoad"===n?this[n].apply(this,[t[0],o.ts]):this[n].apply(this,t));return this},r.exports=o},function(r,e){r.exports=function(r){return function(e){if(!e&&!window._rollbarInitialized){for(var o,n,t=(r=r||{}).globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;o=window._rollbarShims[i++];)n||(n=o.handler),o.handler._swapAndProcessMessages(l,o.messages);window[t]=n,window._rollbarInitialized=!0}}}}]);
+  // End Rollbar Snippet
+</script>
+
+</head>
+<body>
+  <div id="svgs" style="display: none;">
+    <svg xmlns:xlink="http://www.w3.org/1999/xlink">
+      <symbol id="smilies" viewBox="0 0 17 17" width="100%" height="100%">
+        <path d="M8.5,1 C4.358,1 1,4.358 1,8.5 C1,12.642 4.358,16 8.5,16 C12.642,16 16,12.642 16,8.5 C16,4.358 12.642,1 8.5,1 Z M8.5,2 C12.084,2 15,4.916 15,8.5 C15,12.084 12.084,15 8.5,15 C4.916,15 2,12.084 2,8.5 C2,4.916 4.916,2 8.5,2 Z M12,6.453 C12,7.005 11.552,7.453 11,7.453 C10.448,7.453 10,7.005 10,6.453 C10,5.901 10.448,5.453 11,5.453 C11.552,5.453 12,5.901 12,6.453 Z M7,6.453 C7,7.005 6.552,7.453 6,7.453 C5.448,7.453 5,7.005 5,6.453 C5,5.901 5.448,5.453 6,5.453 C6.552,5.453 7,5.901 7,6.453 Z M8.5,12.969 C6.581,12.969 4.852,11.87 3.987,10.101 C3.866,9.852 3.969,9.553 4.217,9.432 C4.465,9.311 4.764,9.412 4.886,9.661 C5.581,11.085 6.966,11.969 8.5,11.969 C10.021,11.969 11.401,11.085 12.105,9.663 C12.227,9.414 12.529,9.315 12.774,9.436 C13.022,9.559 13.123,9.858 13.001,10.106 C12.128,11.872 10.403,12.969 8.5,12.969 Z" id="Fill-1" sketch:type="MSShapeGroup"></path>
+      </symbol>
+
+      <symbol id="close" viewBox="0 0 17 17" width="100%" height="100%">
+        <path d="M4.99237968,6.31407979 C4.73242466,6.05412477 4.73420579,5.64434866 4.98804658,5.39050788 C5.2436571,5.13489735 5.6553846,5.13860708 5.9116185,5.39484098 L8.52358049,8.00680297 L11.1355425,5.39484098 C11.3954975,5.13488596 11.8052736,5.13666709 12.0591144,5.39050788 C12.3147249,5.6461184 12.3110152,6.0578459 12.0547813,6.31407979 L9.4428193,8.92604178 L12.0547813,11.5380038 C12.3147363,11.7979588 12.3129552,12.2077349 12.0591144,12.4615757 C11.8035039,12.7171862 11.3917764,12.7134765 11.1355425,12.4572426 L8.52358049,9.8452806 L5.9116185,12.4572426 C5.65166348,12.7171976 5.24188737,12.7154165 4.98804658,12.4615757 C4.73243606,12.2059652 4.73614579,11.7942377 4.99237968,11.5380038 L7.60434167,8.92604178 L4.99237968,6.31407979 Z" id="Rectangle-2"></path>
+      </symbol>
+
+      <symbol id="attachment" viewBox="0 0 17 17" width="100%" height="100%">
+        <path d="M0.84375,15.6773769 C0.281247188,15.114874 1.77635684e-15,14.4221726 1.77635684e-15,13.5992519 C1.77635684e-15,12.7763311 0.281247188,12.0732131 0.84375,11.4898769 L9.8125,1.95862686 C10.5208369,1.27112342 11.3541619,0.953418262 12.3125,1.00550186 C13.2708381,1.05758545 14.1458294,1.47945623 14.9375,2.27112686 C15.6666703,3.00029717 16.0208334,3.92737123 16,5.05237686 C16,6.15654904 15.6250037,7.07320654 14.875,7.80237686 L8.09375,15.0211269 C7.86458219,15.2711281 7.63020953,15.2815447 7.390625,15.0523769 C7.15104047,14.823209 7.14583219,14.5836281 7.375,14.3336269 L14.15625,7.11487686 C14.7187528,6.55237404 15.0052083,5.85446436 15.015625,5.02112686 C15.0260417,4.18778936 14.7604194,3.50029623 14.21875,2.95862686 C13.885415,2.62529186 13.515627,2.37008607 13.109375,2.19300186 C12.703123,2.01591764 12.2656273,1.95862654 11.796875,2.02112686 C11.3281227,2.08362717 10.9062519,2.30237498 10.53125,2.67737686 L1.5625,12.2086269 C1.18749813,12.5836287 1,13.0419575 1,13.5836269 C1,14.1252962 1.18749813,14.5940415 1.5625,14.9898769 C1.91666844,15.3440453 2.32291438,15.505502 2.78125,15.4742519 C3.23958562,15.4430017 3.67708125,15.2294622 4.09375,14.8336269 L11.21875,7.23987686 C11.7812528,6.67737404 11.8645853,6.19821217 11.46875,5.80237686 C11.2812491,5.61487592 11.0937509,5.52112686 10.90625,5.52112686 C10.6979156,5.54196029 10.4687513,5.67737561 10.21875,5.92737686 L4.84375,11.6461269 C4.61458219,11.8961281 4.38020953,11.9065447 4.140625,11.6773769 C3.90104047,11.448209 3.89583219,11.2086281 4.125,10.9586269 L9.5,5.23987686 C9.91666875,4.80237467 10.3541644,4.56279373 10.8125,4.52112686 C11.3125025,4.47945998 11.7708313,4.67737467 12.1875,5.11487686 C12.5625019,5.48987873 12.7291669,5.93779092 12.6875,6.45862686 C12.6458331,6.97946279 12.3958356,7.46904123 11.9375,7.92737686 L4.8125,15.5211269 C4.22916375,16.1252965 3.57292031,16.44821 2.84375,16.4898769 L2.6875,16.4898769 C1.99999656,16.4898769 1.38541938,16.2190462 0.84375,15.6773769 Z" id="-3" transform="translate(8.000000, 8.500000) scale(-1, 1) rotate(-270.000000) translate(-8.000000, -8.500000) "></path>
+      </symbol>
+
+      <symbol id="document" viewBox="0 0 32 32" width="100%" height="100%">
+        <path d="M29,9 L29,8.58578644 L28.7071068,8.29289322 L20.7071068,0.292893219 L20.4142136,1.33436601e-15 L20,2.59348099e-12 L4.4963932,9.96149829e-11 C3.67407717,1.04760677e-10 3,0.669434988 3,1.49567625 L3,30.5043238 C3,31.3306558 3.67473393,32 4.50127411,32 L27.4987259,32 C28.3297455,32 29,31.3283294 29,30.4991639 L29,9 Z M27.4987259,31 L4.50127411,31 C4.22442806,31 4,30.7757709 4,30.5043238 L4,1.49567625 C4,1.22192182 4.22618103,1 4.4963932,1 L20,1 L28,9 L28,30.4991639 C28,30.775768 27.7777346,31 27.4987259,31 Z" id="Shape-2" fill-opacity="0.15" fill="#34363A"></path><path d="M27.4987259,31 L4.50127411,31 C4.22442806,31 4,30.7757709 4,30.5043238 L4,1.49567625 C4,1.22192182 4.22618103,1 4.4963932,1 L20,1 L28,9 L28,30.4991639 C28,30.775768 27.7777346,31 27.4987259,31 Z" fill="#FFFFFF"></path><path d="M19,1.5 L19,10 L27.5,10 L19,1.5 Z" fill-opacity="0.147475091" fill="#33363A"></path>
+      </symbol>
+
+      <symbol id="logo" viewBox="0 0 17 17" width="100%" height="100%">
+        <path d="M7.625,11.5 C9.4583425,11.5 10.9843689,11.0208381 12.203125,10.0625 C13.4218811,9.10416187 14.0208334,7.8750075 14,6.375 C14,5.02082656 13.369798,3.86979641 12.109375,2.921875 C10.848952,1.97395359 9.32292562,1.5 7.53125,1.5 C5.71874094,1.5 4.17708969,1.97395359 2.90625,2.921875 C1.63541031,3.86979641 1,5.02082656 1,6.375 C1,7.27083781 1.21874781,8.11457938 1.65625,8.90625 C2.09375219,9.69792062 2.7291625,10.3124978 3.5625,10.75 L3.53125,10.75 C3.53125,11.2083356 3.25000281,11.9270784 2.6875,12.90625 C2.66666656,12.9687503 2.65625,13.0208331 2.65625,13.0625 C2.65625,13.1666672 2.69270797,13.255208 2.765625,13.328125 C2.83854203,13.401042 2.92708281,13.4375 3.03125,13.4375 L3.09375,13.4375 L3.125,13.4375 C3.68750281,13.3333328 4.35416281,13.0364608 5.125,12.546875 C5.89583719,12.0572892 6.38541563,11.6875012 6.59375,11.4375 C6.80208437,11.4791669 7.04166531,11.5 7.3125,11.5 L7.453125,11.5 L7.625,11.5 Z M6.15625,10.40625 L5.53125,10.9375 C5.26041531,11.2500016 4.81250313,11.6041647 4.1875,12 C4.27083375,11.7083319 4.34374969,11.4583344 4.40625,11.25 C4.46875031,11.0416656 4.5,10.9062503 4.5,10.84375 L4.5,10.75 L4.5625,10.125 L4,9.84375 C3.35416344,9.510415 2.85937672,9.02083656 2.515625,8.375 C2.17187328,7.72916344 2,7.06250344 2,6.375 C2,5.29166125 2.54166125,4.37500375 3.625,3.625 C4.70833875,2.87499625 6.01040906,2.5 7.53125,2.5 C9.05209094,2.5 10.3437447,2.87499625 11.40625,3.625 C12.4687553,4.37500375 13,5.29166125 13,6.375 C13,7.56250594 12.4947967,8.54687109 11.484375,9.328125 C10.4739533,10.1093789 9.19792437,10.5 7.65625,10.5 C7.34374844,10.5208334 7.03125156,10.5000003 6.71875,10.4375 L6.15625,10.40625 Z M17,10.40625 C17,9.03124313 16.3854228,7.97917031 15.15625,7.25 C15.1354166,7.56250156 15.0520841,7.92708125 14.90625,8.34375 C15.6354203,8.8437525 16,9.53124562 16,10.40625 C16,11.4687553 15.4479222,12.2916637 14.34375,12.875 L13.84375,13.125 C13.8645834,13.9791709 13.9062497,14.5104156 13.96875,14.71875 C13.6770819,14.5104156 13.4218761,14.2968761 13.203125,14.078125 C12.9843739,13.8593739 12.8437503,13.6875006 12.78125,13.5625 L12.65625,13.40625 L12.125,13.5 L11.34375,13.53125 C10.0520769,13.53125 8.97917094,13.19792 8.125,12.53125 L6.71875,12.53125 C7.78125531,13.86459 9.32290656,14.53125 11.34375,14.53125 L11.515625,14.53125 L11.65625,14.53125 C11.8854178,14.53125 12.0937491,14.5104169 12.28125,14.46875 C12.4895844,14.7395847 12.8697889,15.0833313 13.421875,15.5 C13.9739611,15.9166687 14.4895809,16.1666662 14.96875,16.25 L15.03125,16.25 L15.0625,16.25 C15.2708344,16.25 15.375,16.1458344 15.375,15.9375 C15.375,15.8958331 15.3645834,15.8541669 15.34375,15.8125 C15.2395828,15.6041656 15.1250006,15.2864605 15,14.859375 C14.8749994,14.4322895 14.8125,14.0729181 14.8125,13.78125 L14.8125,13.75 C16.2708406,12.9999963 17,11.8854241 17,10.40625 Z"></path>
+      </symbol>
+
+      <symbol id="send" viewBox="0 0 17 17" width="100%" height="100%">
+        <path d="M16.65,0 L16.55,0 L0.15,7.5 C-0.05,7.6 -0.05,7.8 0.15,7.9 L4.15,10.7 L4.15,16.8 L7.95,13.6 L10.45,15.5 C10.55,15.5 10.55,15.6 10.65,15.6 C10.75,15.6 10.85,15.5 10.95,15.4 L17.05,0.3 C16.95,0.1 16.85,0 16.65,0 L16.65,0 Z M1.55,7.8 L14.25,1.9 L4.75,10 L4.65,9.9 L1.55,7.8 L1.55,7.8 Z M5.15,14.6 L5.15,11.4 L7.15,12.9 L5.15,14.6 L5.15,14.6 Z M10.35,14.3 L5.45,10.5 L15.25,2.2 L10.35,14.3 L10.35,14.3 Z" id="sent-Shape"></path> <path d="M16.65,0 L16.55,0 L0.15,7.5 C-0.05,7.6 -0.05,7.8 0.15,7.9 L4.15,10.7 L4.15,16.8 L7.95,13.6 L10.45,15.5 C10.55,15.5 10.55,15.6 10.65,15.6 C10.75,15.6 10.85,15.5 10.95,15.4 L17.05,0.3 C16.95,0.1 16.85,0 16.65,0 L16.65,0 Z" id="sent-Path" fill-opacity="0.149999991"></path>
+      </symbol>
+
+      <symbol id="circle" viewBox="0 0 24 24" width="100%" height="100%">
+        <circle cx="12" cy="12" r="11"></circle>
+      </symbol>
+
+      <symbol id="valid" viewBox="0 0 17 17" width="100%" height="100%">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g stroke="#00b351">
+            <path d="M8.5,16.5 C12.918278,16.5 16.5,12.918278 16.5,8.5 C16.5,4.081722 12.918278,0.5 8.5,0.5 C4.081722,0.5 0.5,4.081722 0.5,8.5 C0.5,12.918278 4.081722,16.5 8.5,16.5 Z"></path>
+            <path d="M5,8.26098835 L7.47973823,11.2760251 L12.5619631,5"></path>
+          </g>
+        </g>
+      </symbol>
+
+      <symbol id="error" viewBox="0 0 17 17" width="100%" height="100%">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g stroke="#f23131">
+            <path d="M8.5,16.5 C12.918278,16.5 16.5,12.918278 16.5,8.5 C16.5,4.081722 12.918278,0.5 8.5,0.5 C4.081722,0.5 0.5,4.081722 0.5,8.5 C0.5,12.918278 4.081722,16.5 8.5,16.5 Z"></path>
+            <path d="M5.65752268,5.65752268 L11.3424773,11.3424773" stroke-linecap="square"></path>
+            <path d="M5.65752268,11.3424773 L11.3424773,5.65752268" stroke-linecap="square"></path>
+          </g>
+        </g>
+      </symbol>
+
+      <symbol id="missive" viewBox="0 0 17 17" width="100%" height="100%">
+        <path d="M16.7403212,12.0024915 L15.9800467,12.0024915 C15.7586057,12.0024915 15.5469675,11.9085701 15.399405,11.7448197 L13.2593924,9.37063121 L12.5626093,10.1437112 L14.6251079,12.4319017 C14.9695718,12.814029 15.4634158,13.0331789 15.9800467,13.0331789 L16.7403212,13.0331789 C16.8837938,13.0331789 17,12.9178064 17,12.7755071 L17,12.2601634 C17,12.1178641 16.8837938,12.0024915 16.7403212,12.0024915 M3.74060765,9.37063121 L1.60059497,11.7448197 C1.45296759,11.9085701 1.24139432,12.0024915 1.01995326,12.0024915 L0.259678762,12.0024915 C0.116206246,12.0024915 0,12.1178641 0,12.2601634 L0,12.7755071 C0,12.9178064 0.116206246,13.0331789 0.259678762,13.0331789 L1.01995326,13.0331789 C1.53664907,13.0331789 2.03049316,12.814029 2.3748272,12.4319017 L4.43739069,10.1436468 L3.74060765,9.37063121 Z M8.5,12.0696794 C8.05718279,12.0696794 7.63384149,11.8818367 7.33865166,11.5543357 L1.60059497,5.18835936 C1.45296759,5.0246089 1.24139432,4.93068751 1.01995326,4.93068751 L0.259678762,4.93068751 C0.116271166,4.93068751 0,4.81531494 0,4.67301565 L0,4.15767195 C0,4.01537267 0.116271166,3.9000001 0.259678762,3.9000001 L1.01995326,3.9000001 C1.53664907,3.9000001 2.03049316,4.11915001 2.3748272,4.50127736 L8.10178262,10.8548855 C8.19792868,10.9615616 8.33166324,11.0322281 8.47578496,11.0384767 C8.63490312,11.0454338 8.78194622,10.9839147 8.88711611,10.8671893 L14.6251728,4.50127736 C14.9695718,4.11915001 15.4634158,3.9000001 15.9800467,3.9000001 L16.7403212,3.9000001 C16.8837938,3.9000001 17,4.01537267 17,4.15767195 L17,4.67301565 C17,4.81531494 16.8837938,4.93068751 16.7403212,4.93068751 L15.9800467,4.93068751 C15.7586057,4.93068751 15.5469675,5.0246089 15.399405,5.18835936 L9.66134834,11.5543357 C9.36615851,11.8818367 8.94288213,12.0696794 8.5,12.0696794 Z" id="missive-Logo-5"></path>
+      </symbol>
+    </svg>
+  </div>
+
+  <div id="component"><div id="webchat" data-state="closed"><div id="header"><div id="status"><div><h1>Vamos conversar?</h1><p data-status="offline"><span class="icon-status icon-status-online"></span><span class="icon-status icon-status-offline"></span><span class="icon-status icon-status-connecting"></span>Estamos offline</p></div></div><span id="close"><span><i class="icon icon-close" style="width: 36px; height: 36px;"><svg style="width: 36px; height: 36px;"><use href="#close"></use></svg></i></span></span><span id="logo"><i class="icon icon-logo" style="width: 30px; height: 30px;"><svg style="width: 30px; height: 30px;"><use href="#logo"></use></svg></i></span></div><div id="main"><div class="spacer"></div><div class="entries"><div class="row"><div class="row"><div class="row entry" data-author="bot" data-next-author="bot"><div class="content"><div class="bubble"><span>Olá! 👋 </span><br><span>Tudo bem?  </span><br><span>Como podemos te ajudar? 🤔</span></div></div></div><div class="row entry" data-author="bot"><div class="content"><div class="bubble"><span>Para facilitar o nosso contato, por favor, se identifique. Informe também o seu número de celular para que possamos continuar o atendimento em caso de interrupções.</span><br><br><span>Caso prefira, você pode consultar as dúvidas mais recorrentes na nossa Central de Ajuda: </span><a href="https://codemy.party/centraldeajuda" target="_blank" rel="noopener nofollow">https://codemy.party/centraldeajuda</a></div></div></div><div class="row entry"><form class="bubble"><div class="row"><div class="input-placeholder"><input type="text"><span class="placeholder">Nome *</span><i class="icon icon-error" style="width: 20px; height: 20px;"><svg style="width: 20px; height: 20px;"><use href="#error"></use></svg></i><i class="icon icon-valid" style="width: 20px; height: 20px;"><svg style="width: 20px; height: 20px;"><use href="#valid"></use></svg></i></div><div class="input-placeholder"><input type="email"><span class="placeholder">E-mail *</span><i class="icon icon-error" style="width: 20px; height: 20px;"><svg style="width: 20px; height: 20px;"><use href="#error"></use></svg></i><i class="icon icon-valid" style="width: 20px; height: 20px;"><svg style="width: 20px; height: 20px;"><use href="#valid"></use></svg></i></div></div><div class="row"><span class="light-text small-text">* Campo Obrigatório</span></div><div class="row buttons"><div><button class="button submit" type="submit">Enviar</button></div></div></form></div></div></div><div class="row"><a id="missive-link" tabindex="-1" href="https://missiveapp.com/?utm_source=app.codemyparty.com.br&amp;utm_medium=webchat" target="_blank" rel="noopener nofollow"><i class="icon icon-missive" style="width: 18px; height: 18px;"><svg style="width: 18px; height: 18px;"><use href="#missive"></use></svg></i> We run on Missive</a></div></div></div></div></div>
+
+  <script nonce="">window.MSInputMethodContext && document.documentMode && document.write('<script src="../../../../../..//ie11CustomProperties.js"><\x2fscript>');</script>
+  <script src="http://./webchat.js.download"></script>
+
+</body>
+<!-- Mirrored from file:///C:/Users/lucas/Desktop/Baile de Gala - CMMG69_files/webchat.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 12 Jul 2023 08:09:12 GMT -->
+</html>
